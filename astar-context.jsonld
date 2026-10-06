@@ -1,0 +1,33 @@
+{
+    "@context": [
+        {
+            "AstarTestObservation": "http://uri.citydatahub.kr/ngsi-ld/climate/AstarTestObservation",
+            "CoolingPrediction": "http://uri.citydatahub.kr/ngsi-ld/climate/CoolingPrediction",
+
+            "temperature": "http://uri.citydatahub.kr/ngsi-ld/climate/temperature",
+            "humidity": "http://uri.citydatahub.kr/ngsi-ld/climate/humidity",
+            "windDirection": "http://uri.citydatahub.kr/ngsi-ld/climate/windDirection",
+            "windSpeed": "http://uri.citydatahub.kr/ngsi-ld/climate/windSpeed",
+
+            "meanCoolingEffect": "http://uri.citydatahub.kr/ngsi-ld/climate/meanCoolingEffect",
+            "maxCoolingEffect": "http://uri.citydatahub.kr/ngsi-ld/climate/maxCoolingEffect",
+            "groundCoolingEffect": "http://uri.citydatahub.kr/ngsi-ld/climate/groundCoolingEffect",
+            "predictedAt": "http://uri.citydatahub.kr/ngsi-ld/climate/predictedAt",
+            "sourceObservation": "http://uri.citydatahub.kr/ngsi-ld/climate/sourceObservation",
+            "modelVersion": "http://uri.citydatahub.kr/ngsi-ld/climate/modelVersion",
+            "CoolingPredictionGrid": "http://uri.citydatahub.kr/ngsi-ld/climate/CoolingPredictionGrid",
+            "site": "http://uri.citydatahub.kr/ngsi-ld/climate/site",
+            "modelName": "http://uri.citydatahub.kr/ngsi-ld/climate/modelName",
+            "inputTemperature": "http://uri.citydatahub.kr/ngsi-ld/climate/inputTemperature",
+            "inputHumidity": "http://uri.citydatahub.kr/ngsi-ld/climate/inputHumidity",
+            "inputWindDirection": "http://uri.citydatahub.kr/ngsi-ld/climate/inputWindDirection",
+            "inputWindSpeed": "http://uri.citydatahub.kr/ngsi-ld/climate/inputWindSpeed",
+            "groundMin": "http://uri.citydatahub.kr/ngsi-ld/climate/groundMin",
+            "groundMean": "http://uri.citydatahub.kr/ngsi-ld/climate/groundMean",
+            "groundMax": "http://uri.citydatahub.kr/ngsi-ld/climate/groundMax",
+            "coolingGrid": "http://uri.citydatahub.kr/ngsi-ld/climate/coolingGrid",
+            "gridShape": "http://uri.citydatahub.kr/ngsi-ld/climate/gridShape",
+            "gridOrder": "http://uri.citydatahub.kr/ngsi-ld/climate/gridOrder"
+        }
+    ]
+}
